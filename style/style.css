@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+}
+form {
+    width: 40%;
+    margin: auto;
+    flex-direction: column;
+    background: RGB(241,241,241);
+    padding: 5%;
+}
+label {
+    font-weight: 900;
+    margin: 1.5%;
+    display: block;
+}
+input{
+    line-height: 25px;
+    border-radius: 2px;
+    width: 100%;
+    padding: 1%;
+}
+select{
+    height: 37px;
+    width: 32%;
+ }
+ select[name="sexo"], select[name="ubicacion"]{
+     width: 100%;
+ }
+form input[name="nombre"], form input[name="apellido"] {
+    width: 49.3%;
+}
+input[name="nombre-de-usuario"]::placeholder{
+    text-align: right;
+}
+form input[name="dia"], form input[name="año"] {
+    width: 32%;
+}
+button {
+    width: 25%;
+    float: right;
+    margin: 2%;
+    height: 32px;
+    padding: none;
+    font-size: 13px;
+    background-color: RGB(75,141,249);
+    color: white;
+    border: 1px solid rgb(130, 130, 248);
+}
